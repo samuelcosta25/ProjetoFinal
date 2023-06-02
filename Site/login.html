@@ -18,7 +18,7 @@
         <nav class="navbar navbar-expand-lg" style="background-color: #141414" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand"></a>
-                <a href="index.html"><img src="/ProjetoFinal/Site/img/containers/logo.png">
+                <a href="index.html"><img src="img/containers/logo.png">
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-lg-0">
@@ -60,15 +60,105 @@
     <br>
     <hr>
 
-    <h1>LOGIN===========================================</h1>
+    <h1>Tela de Cadastro e login</h1>
     <hr>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Entre na sua conta:
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Nunca compartilhe seus dados com ninguem.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Não sou um robô</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Cadastre-se:
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Endereço</label>
+                        <input type="text" class="form-control" id="inputAddress">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">Cidade</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">Estado</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Selecione...</option>
+                            <option>SP</option>
+                            <option>RJ</option>
+                            <option>ES</option>
+                            <option>MG</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">Estrangeiro:</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Selecione...</option>
+                            <option>Sim</option>
+                            <option>Não</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Concordo com os termos
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Concluído</button>
+                    </div>
+                </form></div>
+            </div>
+        </div>
+
+    </div>
 
     <footer class="bd-footer py-4 py-md-5 mt-5">
         <div class="container py-4 py-md-5 px-4 px-md-3">
             <div class="row">
                 <div class="col-lg-3 mb-3">
                     <a class="d-inline-flex align-items-center mb-2" href="/" aria-label="eTicketX">
-                        <img src="/ProjetoFinal/Site/img/containers/logo.png">
+                        <img src="img/containers/logo.png">
 
                     </a>
                     <br>

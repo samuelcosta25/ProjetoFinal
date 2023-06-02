@@ -1,11 +1,3 @@
-.card img{
-    height: 30vh;
-}
-
-.navbar img{
-    height: 8vh;
-}
-
 .bd-footer {
     background-color: #141414;
     color: rgb(255, 255, 255);
@@ -19,11 +11,7 @@
    color: rgb(165, 165, 165);
 
 }
-.container {
-    color: rgb(255, 255, 255);
-}
-
-.row {
-    color: aliceblue;
+.card img {
+    height: 40vh;
 }
 
