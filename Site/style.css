@@ -11,11 +11,36 @@
    color: rgb(165, 165, 165);
 
 }
+.card {
+padding: 0px;
+overflow: hidden;
+position: relative;
+border-color:transparent;
+display: flex;
+justify-content: center;
+}
+
 .card img {
-    height: 40vh;
+    border-radius: 50%;
+    height:33vh;
+    width: 33vh;
+}
+
+.row {
+    margin-left: 40px;
 }
 
 .d-block {
     height: 55vh;
     width: 100vh;
 }
+
+.jumbotron{
+    background-image: url(img/Conteudo/Login/bg.jpg);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
