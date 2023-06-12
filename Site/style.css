@@ -43,4 +43,9 @@ justify-content: center;
     color: white;
 }
 
-
+main {
+    background-image: url(img/Conteudo/Home/bg-show);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

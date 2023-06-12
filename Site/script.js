@@ -5,12 +5,15 @@ function cadastrar() {
         check=true
     }
 
-    if (document.getElementById("inputEmail").value == ''
+    if (document.getElementById("confirmaPassword").value!=document.getElementById("inputPassword").value) {
+        alert("As senhas não coincidem!");
+    } else if (document.getElementById("inputEmail").value == ''
         || document.getElementById("inputPassword").value == ''
         || document.getElementById("inputAddress").value == ''
         || document.getElementById("inputCity").value == ''
         || check==false) {
         alert("Preencha todos os campos!");
+            
     }
 
 }
