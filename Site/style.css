@@ -44,8 +44,14 @@ justify-content: center;
 }
 
 main {
-    background-image: url(img/Conteudo/Home/bg-show);
-    background-position:bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(img/Conteudo/Home/bg-show.jpg);
+    background-size:contain;
+}
+
+#destaques {
+    height: 500px;
+}
+
+main {
+    height: 5000px;
 }

@@ -41,3 +41,8 @@ function entrar() {
         alert("Preencha todos os campos!");
     }
 }
+
+function scrollDestaques() {
+    var parteScroll = document.getElementById("destaques");
+      parteScroll.scrollIntoView({ behavior: 'smooth' });
+}
