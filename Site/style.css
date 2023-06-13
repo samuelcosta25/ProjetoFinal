@@ -37,15 +37,13 @@ justify-content: center;
 
 .jumbotron{
     background-image: url(img/Conteudo/Login/bg.jpg);
-    background-position:bottom;
-    background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
 
 main {
-    background-image: url(img/Conteudo/Home/bg-show.jpg);
-    background-size:contain;
+    background: url(img/Conteudo/Home/bg-show2.webp) center center no-repeat fixed;
+    background-size:cover;
 }
 
 #destaques {
